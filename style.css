@@ -14,10 +14,12 @@
     background-color: var(--light-Gray);
 }
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: grid;
+    place-content: center;
+    min-height: 100vh; 
     font-family: 'Outfit', sans-serif;;
 
 }
@@ -30,7 +32,7 @@ body{
     padding-left: 10px;
     padding-top: 8px;
     background-color: var(--white);
-    margin-top: 120px;
+    /* margin-top: 120px; */
 }
 .col-img{
     display: flex;
@@ -49,19 +51,20 @@ img{
     background-color: var(--white);
     margin: 3px;
 }
-.col-text h2{
+.col-text h1{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     background-color: var(--white);
     margin: 4px;
     text-align: center;
-    padding: 20px;
+    padding: 16px;
     color: var(--Dark-blue);
+
 }
 .col-text p{
     text-align: center;
     font-weight: 400;
-    padding:  3 25px;
+    padding:  2 25px;
     font-size: 15px;
     margin: 0  15px;
     background-color: var(--white);
@@ -81,7 +84,7 @@ img{
     .col-img img{
         width: 230px;
     }
-    .col-text h2{
+    .col-text h1{
         font-size: 15px;
         line-height: 1.2em;
         font-weight: bolder;
